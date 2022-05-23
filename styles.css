@@ -1,0 +1,244 @@
+/* Universal styles */
+
+html {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+.main {
+    position: relative;
+    top: 6rem;
+}
+
+/* Header */
+
+header {
+    position: fixed;
+    overflow: visible;
+    z-index: 2;
+    width: 100%;
+    border-bottom: solid 2px #979292;
+    background-color: #fff;
+}
+
+header .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+header nav ul {
+    display: flex;
+}
+
+nav li {
+    padding-left: 1rem;
+    font-size: 1.25rem;
+    letter-spacing: .04rem;
+}
+
+.head-button {
+    border: solid 1px #c6c1c1;
+    background-color: #977b58;
+    color: #fff;
+    padding: 0.5rem;
+}
+
+.head-button:hover {
+    background-color: #4a3c2b
+}
+
+.head-button:active {
+    background-color: #e3b984;
+    box-shadow: #4a3c2b;
+}
+
+/* Main content */
+
+/* banner */
+
+.banner {
+    max-width: 100%;
+    display: flex;
+    background-image: url("./resources/greeting.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 41.25rem;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    line-height: 10rem;
+}
+
+.text h2 {
+    font-size: 4rem;
+}
+
+.text h1 {
+    font-size: 8rem;
+}
+
+.text h4 {
+    font-size: 2rem;
+}
+
+/* numbers */
+
+#numbers {
+    background-color: #f2f2f2;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.number-text {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    padding-top: .5rem;
+    letter-spacing: 0.125rem;
+}
+
+.images-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.image-container img {
+    height: 12.5rem;
+    width: 18.75rem;
+    margin: 0 2rem;
+}
+
+.image-container p {
+    margin-top: .43rem;
+    padding-bottom: .5rem;
+    letter-spacing: .05;
+}
+
+/* Photo */
+
+.hotel {
+    background-image: url("./resources/Hotel.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 36rem;
+}
+
+/* Description */
+
+.description {
+    background-color: #f2f2f2;
+    margin-top: 1rem;
+    text-align: center;
+    line-height: 3rem;
+}
+
+.description h3 {
+    font-size: 2.5rem;
+}
+
+.description p {
+    font-size: 1.5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding: 2rem 5rem 0;
+}
+
+.description h4 {
+    font-size: 2rem;
+    padding-top: 1.5rem;
+}
+
+.description-list {
+    padding-top: 1.5rem;
+    list-style: square inside none;
+    font-size: 1.5rem;
+    line-height: normal;
+}
+
+/* Services */
+
+#services {
+    text-align: center;
+    margin: 3rem auto;
+    max-width: 75%;
+}
+
+.service-imgs {
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.service-img img {
+    border-radius: 50%;
+    border: solid 5px #b89f80;
+}
+
+.service-img h5 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.service-img p {
+    width: 22.9rem;
+    margin-top: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.button {
+    padding: 0.5rem;
+    background-color: #b89f80;
+    color: #fff;
+    border: solid 1px #dec09a;
+}
+
+.button:hover {
+    border: none;
+    background-color: #84725c;
+}
+
+.button:active {
+    border: none;
+    box-shadow: #84725c;
+    background-color: #fff;
+    color: #000;
+}
+
+/* Info */
+
+#info {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 2rem;
+    font-size: 1.2rem;
+}
+
+#info h6 {
+    font-weight: 700;
+    letter-spacing: .15rem;
+}
+
+.contact-info {
+    padding: 1rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 3rem;
+    background-color: #000;
+    color: #fff; 
+}
